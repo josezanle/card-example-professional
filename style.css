@@ -15,13 +15,14 @@ body {
 }
 .card {
   width: 18em;
-  height: 32em;
+  height: 33em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   border-radius: 1em;
   background: white;
+  box-shadow: 0.3em 0.3em 0.5em grey;
 }
 .top {
   flex: 4;
@@ -30,7 +31,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/red.jpg);
+  background: url(/top.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,23 +52,30 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-flow: column;
 }
 h3 {
-  padding: 1.5em 0 0.1em 0;
+  padding: 0 0 0.1em 0;
   font-weight: bold;
 }
+p {
+  color: grey;
+  padding-bottom: 5px;
+}
+/* ============================================ */
+
 .icons {
-  flex: 3;
+  flex: 2;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background: aqua;
+  padding: 0.5em 0;
+  background: #ebebeb;
 }
 .icones {
   flex: 1;
@@ -82,7 +90,7 @@ span {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  margin: 9px;
+  margin: 5px 9px;
 }
 svg {
   width: 30px;
@@ -93,15 +101,28 @@ h5 {
   margin: 0;
 }
 .bordered {
-  background: #000;
+  background: #3e505b;
   color: white;
   border-radius: 50%;
   padding: 0.3em;
 }
-
+/* =======================================================00 */
 .bottom {
-  flex: 1;
+  flex: 2;
   width: 100%;
   height: 100%;
-  background: yellow;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  border-radius: 0 0 1em 1em;
+  background: #3e505b;
+  padding: 5px;
+}
+.bottom h3 {
+  color: white;
+}
+
+.bottom p {
+  color: silver;
 }
