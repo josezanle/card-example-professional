@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ebebeb;
+  background: white;
   font-family: ubuntu;
 }
 .card {
@@ -20,9 +20,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  border-radius: 1em;
+  border-radius: 1.5em;
   background: white;
-  box-shadow: 0.3em 0.3em 0.5em grey;
+  border: 0.5em solid black;
 }
 .top {
   flex: 4;
@@ -67,7 +67,7 @@ p {
 /* ============================================ */
 
 .icons {
-  flex: 2;
+  flex: 3;
   width: 100%;
   height: 100%;
   display: flex;
@@ -82,7 +82,7 @@ p {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 span {
@@ -108,21 +108,22 @@ h5 {
 }
 /* =======================================================00 */
 .bottom {
-  flex: 2;
+  flex: 1;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  flex-flow: column;
   border-radius: 0 0 1em 1em;
   background: #3e505b;
   padding: 5px;
 }
-.bottom h3 {
+.fa-hand-point-up {
+  width: 25px;
+  height: 25px;
   color: white;
+  margin-right: 5px;
 }
-
-.bottom p {
-  color: silver;
+.bottom h5 {
+  color: white;
 }
